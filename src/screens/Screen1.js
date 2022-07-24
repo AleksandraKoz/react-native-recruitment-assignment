@@ -7,9 +7,9 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-import DisplayAnImage from './UserImage.js'
-import Input from './Input.js'
-import Counter from './Counter.js'
+import DisplayAnImage from '../components/UserImage.js'
+import Input from '../components/Input.js'
+import Counter from '../components/Counter.js'
 
 const Screen1 = ({ navigation }) => {
   const [counter, setCounter] = useState(0)

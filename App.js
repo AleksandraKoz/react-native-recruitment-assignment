@@ -2,8 +2,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import Screen1 from './android/app/src/components/Screen1'
-import Screen2 from './android/app/src/components/Screen2'
+import Screen1 from './src/screens/Screen1'
+import Screen2 from './src/screens/Screen2'
 
 const Stack = createNativeStackNavigator();
 

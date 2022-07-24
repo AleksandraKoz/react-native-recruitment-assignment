@@ -7,8 +7,8 @@ import {
   TouchableOpacity
 } from 'react-native';
 
-import ColorButtons from './ColorButtons'
-import ColorCounter from './ColorCounter'
+import ColorButtons from '../components/ColorButtons'
+import ColorCounter from '../components/ColorCounter'
 
 const Screen2 = ({ navigation, route }) => {
   const [color, setColor] = useState('green')
